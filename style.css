@@ -1,0 +1,176 @@
+
+/* ==============================
+   CONFIGURAÇÕES GERAIS
+============================== */
+
+:root {
+    --azul-petroleo: #172B3A;
+    --verde: #4B817B;
+    --off-white: #F3F0E9;
+    --grafite: #25282C;
+    --branco: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--off-white);
+    color: var(--grafite);
+    line-height: 1.6;
+}
+
+/* ==============================
+   MENU
+============================== */
+
+header {
+    background-color: var(--azul-petroleo);
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo {
+    color: var(--off-white);
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav ul a {
+    color: var(--off-white);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+nav ul a:hover {
+    color: #8FC2B5;
+}
+
+/* ==============================
+   SEÇÃO INICIAL
+============================== */
+
+#inicio {
+    min-height: 75vh;
+    padding: 100px 10%;
+    background-color: var(--azul-petroleo);
+    color: var(--off-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#inicio p:first-child {
+    color: #8FC2B5;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+#inicio h1 {
+    max-width: 750px;
+    font-size: clamp(36px, 6vw, 64px);
+    line-height: 1.15;
+    margin-bottom: 25px;
+}
+
+#inicio p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#inicio a {
+    display: inline-block;
+    background-color: var(--verde);
+    color: var(--branco);
+    padding: 13px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#inicio a:hover {
+    background-color: #386A64;
+}
+
+/* ==============================
+   SEÇÕES
+============================== */
+
+section:not(#inicio) {
+    padding: 80px 10%;
+}
+
+section h2 {
+    color: var(--azul-petroleo);
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section:not(#inicio) p {
+    max-width: 750px;
+    font-size: 17px;
+}
+
+/* ==============================
+   RODAPÉ
+============================== */
+
+footer {
+    background-color: var(--azul-petroleo);
+    color: var(--off-white);
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+
+/* ==============================
+   RESPONSIVIDADE
+============================== */
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px 6%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    #inicio {
+        min-height: 65vh;
+        padding: 70px 7%;
+    }
+
+    section:not(#inicio) {
+        padding: 60px 7%;
+    }
+}
