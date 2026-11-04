@@ -174,3 +174,13 @@ footer {
         padding: 60px 7%;
     }
 }
+/* ==============================
+   MENU ATIVO
+============================== */
+
+nav ul a.ativo {
+    color: #8FC2B5;
+    font-weight: bold;
+    border-bottom: 2px solid #8FC2B5;
+    padding-bottom: 5px;
+}
