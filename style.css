@@ -402,3 +402,39 @@ nav ul a.ativo {
     background-color: #E5EDF2;
     color: #31566D;
 }
+
+/* CONTATO */
+
+#contato {
+    text-align: center;
+}
+
+#contato p {
+    max-width: 650px;
+    margin: 20px auto 30px;
+    line-height: 1.7;
+}
+
+.links-contato {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.links-contato a {
+    display: inline-block;
+    background-color: #172B3A;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.links-contato a:hover {
+    background-color: #4B817B;
+    transform: translateY(-3px);
+}
