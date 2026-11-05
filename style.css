@@ -357,3 +357,48 @@ nav ul a.ativo {
     }
 }
 
+/* FORMAÇÃO ACADÊMICA */
+
+.lista-formacao {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card-formacao {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 12px;
+    border-left: 4px solid #4B817B;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.card-formacao h3 {
+    color: #172B3A;
+    font-size: 20px;
+    margin: 18px 0 10px;
+}
+
+.card-formacao p {
+    color: #555555;
+    font-size: 15px;
+}
+
+.status-formacao {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.status-formacao.concluida {
+    background-color: #E5EFEA;
+    color: #356B55;
+}
+
+.status-formacao.andamento {
+    background-color: #E5EDF2;
+    color: #31566D;
+}
