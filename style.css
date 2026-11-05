@@ -438,3 +438,19 @@ nav ul a.ativo {
     background-color: #4B817B;
     transform: translateY(-3px);
 }
+
+/* ALINHAMENTO DOS PARÁGRAFOS */
+
+section p {
+    text-align: justify;
+    line-height: 1.7;
+}
+
+/* Exceções */
+#contato p {
+    text-align: center;
+}
+
+#inicio .descricao {
+    text-align: justify;
+}
