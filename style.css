@@ -439,21 +439,7 @@ nav ul a.ativo {
     transform: translateY(-3px);
 }
 
-/* AJUSTE DE ALINHAMENTO E ESPAÇAMENTO */
 
-section {
-    padding: 45px 10%;
-}
-
-section h2 {
-    margin-bottom: 20px;
-}
-
-section p {
-    text-align: left;
-    line-height: 1.6;
-    margin-bottom: 12px;
-}
 
 /* Centralização dos títulos */
 section h2 {
