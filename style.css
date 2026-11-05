@@ -438,29 +438,3 @@ nav ul a.ativo {
     background-color: #4B817B;
     transform: translateY(-3px);
 }
-
-
-
-/* Centralização dos títulos */
-section h2 {
-    text-align: center;
-}
-
-/* Seção inicial */
-#inicio .descricao {
-    text-align: left;
-}
-
-/* Seção sobre */
-#sobre p {
-    max-width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Contato */
-#contato p {
-    text-align: center;
-    max-width: 650px;
-    margin: 0 auto 25px;
-}
