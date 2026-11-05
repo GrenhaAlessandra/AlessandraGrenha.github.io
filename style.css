@@ -243,3 +243,39 @@ nav ul a.ativo {
     border-bottom: 2px solid #8FC2B5;
     padding-bottom: 5px;
 }
+
+
+/* ==============================
+   COMPETÊNCIAS
+============================== */
+
+.grupo-competencias {
+    margin-top: 35px;
+}
+
+.grupo-competencias h3 {
+    color: var(--verde);
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.lista-competencias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.lista-competencias span {
+    background-color: var(--azul-petroleo);
+    color: var(--off-white);
+    padding: 13px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    border-left: 4px solid var(--verde);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.lista-competencias span:hover {
+    transform: translateY(-4px);
+    background-color: #294453;
+}
